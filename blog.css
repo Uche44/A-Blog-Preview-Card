@@ -1,0 +1,81 @@
+@import "https://fonts.google.com/specimen/Figtree";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+div.card {
+  height: 460px;
+  width: 300px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 15px 20px 20px 20px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 0px 5px #222;
+}
+
+img {
+  width: 260px;
+  height: 170px;
+  border-radius: 20px;
+}
+
+div.learn {
+  background-color: hsl(47, 88%, 63%);
+  width: 100px;
+  height: 35px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 15px;
+  font-weight: 800;
+}
+
+p.main {
+  color: hsl(0, 0%, 50%);
+  font-weight: 600;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+p {
+  margin-top: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+}
+
+ul {
+  height: 70px;
+  width: 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li img {
+  height: 30px;
+  width: 30px;
+}
+li.greg{
+font-weight: 600;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 1rem;
+}
